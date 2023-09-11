@@ -1,0 +1,185 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    scroll-behavior: smooth;
+    background-color: bisque;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+
+}
+
+header {
+    background-color: lightgrey;
+}
+
+h1,
+h2 {
+    margin-left:20px; 
+    margin-bottom:10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+p {
+    font-size: 120%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.container,thead {
+    text-align: center;
+}
+
+th,tr,td {
+    border:1px solid black;
+    text-align: center;
+    padding: 5px;   
+    margin: 10px;
+    width: auto;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+table {
+    margin: 0 auto;
+}
+a:hover {
+    color:white;
+    background-color: blue;
+    border: 6px solid blue;
+    border-radius: 7px;
+    transition-duration: 0.2s;
+    
+}
+
+a:active {
+    color: gray;
+    transition-duration: 0.1s;
+    
+}
+
+
+
+.navbar li {
+    display: inline;
+    margin-right:20px;
+    font-size: 150%;
+    font-weight: bold
+
+}
+
+.navdiv {
+    background-color: lightgray;
+    padding: 25px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+a {
+    color:black;
+}
+
+img {
+    width: 100%;
+    height: 75%;
+    margin: 20px 20px;
+    
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+
+footer li {
+    display: inline;
+    font-weight: bold;
+    font-size: 120%;
+    margin: 50px;
+    
+}
+
+#contact-details{
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+
+/*SCHEDULE*/
+
+.schedule {
+    text-align: center;
+    position: center;
+    
+}
+
+.schedule-content {
+    position: center;
+}
+
+
+/* SURVEY */
+
+
+.container-q {
+    text-align: center;
+    display: flex;
+    
+}
+
+.question {
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: block;
+    position: center;
+    margin: 30px 200px;
+    flex-basis: 250px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+button {
+    align-items: center;
+    padding: 30px;
+    margin: 8px;
+    border: none;
+    width: fit-content;
+    border-radius:8px;
+    
+
+}
+
+
+
+button:hover {
+    color: grey;
+    background-color: lightblue;
+}
+
+
+button:active {
+    color: white;
+    background-color: green;
+}
